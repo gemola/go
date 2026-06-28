@@ -1,0 +1,41 @@
+# ---- Go ----
+# 编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/build/
+/dist/
+
+# 测试与覆盖率
+*.test
+*.out
+coverage.*
+
+# Go 工作区文件
+go.work
+go.work.sum
+
+# 依赖缓存目录（如果有 vendor 但不想提交可取消下一行注释）
+# /vendor/
+
+# ---- 环境变量 / 敏感信息 ----
+.env
+.env.*
+*.local
+*.pem
+*.key
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
