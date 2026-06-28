@@ -2,5 +2,3 @@ banana
 orange
 apple
 bamboo
-watermalen
-lemon
